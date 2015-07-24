@@ -14,15 +14,21 @@
 	src: url('../fonts/MyriadPro-Regular.otf');
 }
 
+@font-face{
+	font-family: 'Lato-Bold';
+	src: url('../fonts/Lato-Bold.ttf');
+}
+
 
 /**** HEADER ****/
 body{
 	font-size: 16px;
+	position: relative;
 }
 
 header{
 	background: #FFFFFF;
-	padding: 1em 0;
+	padding: 0.5em 0;
 	text-align: center;
 }
 
@@ -60,4 +66,93 @@ header{
 	color: #333333;
 	font-size: 1em;
 	font-family: 'MyriadPro-Regular',sans-serif;
+}
+
+/**** DATOS ****/
+.datos{
+	
+}
+
+.titulo-proyecto{
+	text-align: right;
+	right: 10em;
+	position: absolute;
+	top: 9em;
+	z-index: 6;
+}
+
+.titulo-proyecto span{
+	color : #FF1D25;
+	font-family: 'Lato-Bold',sans-serif;
+	font-size: 1.6em;
+}
+
+.titulo-proyecto h1{
+	color : #FFFFFF;
+	font-family: 'Lato-Bold',sans-serif;
+	font-size: 3.2em;
+	margin-top: -0.3em !important;
+	margin: 0;
+	text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.48);
+}
+
+.video{
+	width: 23em;
+	position: absolute;
+	right: 10em;
+	top: 15em;
+	z-index: 7;
+}
+
+/**** IGNITES ****/
+.ignites{
+	text-align: center;
+	position: absolute;
+	bottom: 1em;
+	left: 45%;
+	z-index: 5;
+}
+
+#desarrollado{
+	color: #FFFFFF;
+	display: block;
+	font-family: 'MyriadPro-Regular',sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	padding-bottom: 1.2em;
+	text-align: center;
+}
+
+.comandos{
+	display: inline-block;
+	margin-left: 1.5em;
+}
+
+.comandos figure img{
+	width: 5em;
+	border-radius: 50%;
+}
+
+.comandos span{
+	color: #FFFFFF;
+	display: block;
+	font-family: 'MyriadPro-Regular',sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	padding-top: 0.3em;
+	text-align: center;
+}
+
+.comandos a{
+	color: #FF4900;
+	font-family: 'MyriadPro-Regular',sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+/**** SLIDE PRINCIPAL ****/
+.slide-principal{
+	height: 100%;
 }
