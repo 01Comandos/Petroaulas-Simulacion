@@ -1,0 +1,63 @@
+/*
+
+	Proyecto: Final de Simulación y Modelos
+
+	Diseñado y maquetado por: @01Comandos
+
+	Fecha: 24/07/2015;
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+
+@font-face{
+	font-family: 'MyriadPro-Regular';
+	src: url('../fonts/MyriadPro-Regular.otf');
+}
+
+
+/**** HEADER ****/
+body{
+	font-size: 16px;
+}
+
+header{
+	background: #FFFFFF;
+	padding: 1em 0;
+	text-align: center;
+}
+
+.logotipos,
+.asignatura{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.logotipos{
+	border-right: 1px solid #333333;
+	padding-right: 1.5em;
+}
+
+.logotipos figure{
+	display: inline-block;
+	margin-left: 1em;
+}
+
+.logotipos figure img{
+	width: 8em;
+}
+
+#logo-udo{
+	width: 6em;
+}
+
+.asignatura{
+	text-align: left;
+	padding-left: 1em;
+	padding-top: 0.7em;
+}
+
+.asignatura p{
+	color: #333333;
+	font-size: 1em;
+	font-family: 'MyriadPro-Regular',sans-serif;
+}
