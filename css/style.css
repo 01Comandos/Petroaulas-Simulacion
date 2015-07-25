@@ -19,17 +19,25 @@
 	src: url('../fonts/Lato-Bold.ttf');
 }
 
+html{
+	position: relative;
+}
+
 
 /**** HEADER ****/
 body{
 	font-size: 16px;
 	position: relative;
+	height: 100%;
+	/*overflow-y: hidden;*/
 }
 
 header{
-	background: #FFFFFF;
+	/*background: #FFFFFF;*/
 	padding: 0.5em 0;
 	text-align: center;
+	z-index: 15;
+	position: relative;
 }
 
 .logotipos,
@@ -155,4 +163,20 @@ header{
 /**** SLIDE PRINCIPAL ****/
 .slide-principal{
 	height: 100%;
+	margin-top: -1em;
+}
+
+.slide-principal img{
+	height: auto;
+	max-width: 100%;
+}
+
+.carousel-indicators {
+	bottom: 300px;
+}
+
+.carousel-indicators .active,
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
 }
